@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Digital Clock</title>
+		<link rel="stylesheet" href="stylesheet.css">
+	</head>
+	<body>
+		<div style="display:flex;justify-content: space-around;">
+			<div class="left">
+				<div class="pngClock">
+					<div id='clockImg'>
+						<img src="./clock_logo.png">
+					</div>
+				</div>
+				<div class="alarmBox">
+					<div>
+						<div class="alarm" id="boxid1">
+							<div class="icon">
+								<img src="./wake_up.svg" alt="">
+							</div>
+							<div class="mess">
+								Set wake up time
+							</div>
+							<div class="drop">
+								<form action="">
+									<select name="time1" id="alarm1">
+										<option value="12a01a">12AM - 1AM</option>
+										<option value="01a02a">1AM - 2AM</option>
+										<option value="02a03a">2AM - 3AM</option>
+										<option value="03a04a">3AM - 4AM</option>
+										<option value="04a05a">4AM - 5AM</option>
+										<option value="05a06a">5AM - 6AM</option>
+										<option value="06a07a">6AM - 7AM</option>
+										<option value="07a08a">7AM - 8AM</option>
+										<option value="08a09a">8AM - 9AM</option>
+										<option value="09a10a">9AM - 10AM</option>
+										<option value="10a11a">10AM - 11AM</option>
+										<option value="11a12p">11AM - 12PM</option>
+										
+										<option value="12p01p">12PM - 1PM</option>
+										<option value="01p02p">1PM - 2PM</option>
+										<option value="02p03p">2PM - 3PM</option>
+										<option value="03p04p">3PM - 4PM</option>
+										<option value=04p05p">4PM - 5PM</option>
+										<option value="05p06p">5PM - 6PM</option>
+										<option value="06p07p">6PM - 7PM</option>
+										<option value="07p08p">7PM - 8PM</option>
+										<option value=08p09p">8PM - 9PM</option>
+										<option value="09p10p">9PM - 10PM</option>
+										<option value="10p11p">10PM - 11PM</option>
+										<option value="11p12a">11PM - 12AM</option>
+									</select>
+								</form>
+							</div>
+							
+						</div>
+						<div class="alarm" id="boxid2">
+							
+						</div>
+						<div class="alarm" id="boxid3">
+							<div class="icon">
+								<img src="./lunch_time.svg" alt="">
+							</div>
+							<div class="mess">
+								Set lunch time
+							</div>
+							<div class="drop">
+								<form action="">
+									<select name="time2" id="alarm2">
+										<option value="12a01a">12AM - 1AM</option>
+										<option value="01a02a">1AM - 2AM</option>
+										<option value="02a03a">2AM - 3AM</option>
+										<option value="03a04a">3AM - 4AM</option>
+										<option value="04a05a">4AM - 5AM</option>
+										<option value="05a06a">5AM - 6AM</option>
+										<option value="06a07a">6AM - 7AM</option>
+										<option value="07a08a">7AM - 8AM</option>
+										<option value="08a09a">8AM - 9AM</option>
+										<option value="09a10a">9AM - 10AM</option>
+										<option value="10a11a">10AM - 11AM</option>
+										<option value="11a12p">11AM - 12PM</option>
+										
+										<option value="12p01p">12PM - 1PM</option>
+										<option value="01p02p">1PM - 2PM</option>
+										<option value="02p03p">2PM - 3PM</option>
+										<option value="03p04p">3PM - 4PM</option>
+										<option value=04p05p">4PM - 5PM</option>
+										<option value="05p06p">5PM - 6PM</option>
+										<option value="06p07p">6PM - 7PM</option>
+										<option value="07p08p">7PM - 8PM</option>
+										<option value=08p09p">8PM - 9PM</option>
+										<option value="09p10p">9PM - 10PM</option>
+										<option value="10p11p">10PM - 11PM</option>
+										<option value="11p12a">11PM - 12AM</option>
+									</select>
+								</form>
+							</div>
+						</div>
+						<div class="alarm" id="boxid4">
+							
+						</div>
+						<div class="alarm" id="boxid5">
+							<div class="icon">
+								<img src="./nap_time.svg" alt="">
+							</div>
+							<div class="mess">
+								Set nap time
+							</div>
+							<div class="drop">
+								<form action="">
+									<select name="time3" id="alarm3">
+										<option value="12a01a">12AM - 1AM</option>
+										<option value="01a02a">1AM - 2AM</option>
+										<option value="02a03a">2AM - 3AM</option>
+										<option value="03a04a">3AM - 4AM</option>
+										<option value="04a05a">4AM - 5AM</option>
+										<option value="05a06a">5AM - 6AM</option>
+										<option value="06a07a">6AM - 7AM</option>
+										<option value="07a08a">7AM - 8AM</option>
+										<option value="08a09a">8AM - 9AM</option>
+										<option value="09a10a">9AM - 10AM</option>
+										<option value="10a11a">10AM - 11AM</option>
+										<option value="11a12p">11AM - 12PM</option>
+										
+										<option value="12p01p">12PM - 1PM</option>
+										<option value="01p02p">1PM - 2PM</option>
+										<option value="02p03p">2PM - 3PM</option>
+										<option value="03p04p">3PM - 4PM</option>
+										<option value=04p05p">4PM - 5PM</option>
+										<option value="05p06p">5PM - 6PM</option>
+										<option value="06p07p">6PM - 7PM</option>
+										<option value="07p08p">7PM - 8PM</option>
+										<option value=08p09p">8PM - 9PM</option>
+										<option value="09p10p">9PM - 10PM</option>
+										<option value="10p11p">10PM - 11PM</option>
+										<option value="11p12a">11PM - 12AM</option>
+									</select>
+								</form>
+							</div>
+						</div>
+						<div class="alarm" id="boxid6">
+							
+						</div>
+						<div class="alarm" id="boxid7">
+							<div class="icon">
+								<img src="./night_time.png" style="height: 34px; width: 34px;"alt="">
+							</div>
+							<div class="mess">
+								Set night time
+							</div>
+							<div class="drop">
+								<form action="">
+									<select name="time4" id="alarm4">
+										<option value="12a01a">12AM - 1AM</option>
+										<option value="01a02a">1AM - 2AM</option>
+										<option value="02a03a">2AM - 3AM</option>
+										<option value="03a04a">3AM - 4AM</option>
+										<option value="04a05a">4AM - 5AM</option>
+										<option value="05a06a">5AM - 6AM</option>
+										<option value="06a07a">6AM - 7AM</option>
+										<option value="07a08a">7AM - 8AM</option>
+										<option value="08a09a">8AM - 9AM</option>
+										<option value="09a10a">9AM - 10AM</option>
+										<option value="10a11a">10AM - 11AM</option>
+										<option value="11a12p">11AM - 12PM</option>
+										
+										<option value="12p01p">12PM - 1PM</option>
+										<option value="01p02p">1PM - 2PM</option>
+										<option value="02p03p">2PM - 3PM</option>
+										<option value="03p04p">3PM - 4PM</option>
+										<option value=04p05p">4PM - 5PM</option>
+										<option value="05p06p">5PM - 6PM</option>
+										<option value="06p07p">6PM - 7PM</option>
+										<option value="07p08p">7PM - 8PM</option>
+										<option value=08p09p">8PM - 9PM</option>
+										<option value="09p10p">9PM - 10PM</option>
+										<option value="10p11p">10PM - 11PM</option>
+										<option value="11p12a">11PM - 12AM</option>
+									</select>
+								</form>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+				<div class="leftMessage">
+					<div id='changeMess'>
+						Seize the day, then let it go.
+					</div>
+				</div>
+				<div class="collage">
+					<div>
+						<div style="display:flex;justify-content: space-between;
+							margin-top: 1rem;
+							}">
+							<div class="submission">
+								<button id="submit">
+								Party Time!
+								</button>
+							</div>
+							<div class="alarmInfo">
+								<div style='margin-left: 1.3rem;'>
+									<div id="info1">
+									</div>
+									<div id="info2">
+									</div>
+									<div id="info3">
+									</div>
+									<div id="info4">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="right">
+				<div class="time">
+					<div>
+						<div class='boxy' id='boxy1'>
+							
+						</div>
+						<div class='boxy' id='boxy2'>
+							
+						</div>
+						<div id="clock" >
+							<div id="id1">TIME</div>
+							<div id="id2"class='tEntity'>04 <br>hours</div>
+							<div class='col'>:</div>
+							<div class='tEntity'id="id3">30 <br>mins</div>
+							<div class='col'>:</div>
+							<div class='tEntity'id="id4">10 <br>secs</div>
+							<div class=''id="id5">AM</div>
+						</div>
+					</div>
+				</div>
+				<div class="rightMessage">
+					<div id='textRight'>
+						Set Alarm !!
+					</div>
+				</div>
+				<div id="image">
+					
+				</div>
+			</div>
+			<script type="text/javascript" src='./main.js'></script>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,178 @@
+
+.pngClock
+{
+	padding: 1rem;
+}
+body
+{
+	margin: 0px;
+	padding: 3rem;
+	background-color: #3D087B;
+	margin-top: 2.5rem;
+}
+
+.alarm, #clock
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+.alarmBox
+{
+	background-color: #FFFFFF;
+width: 500px;
+font-size: 1.5rem;
+padding: 4rem;
+border-radius: 1rem;
+margin-bottom: 1rem;
+
+}
+.leftMessage>div
+{
+text-align: center;
+font: normal normal 900 27px/34px Bauhaus Hv BT;
+letter-spacing: 0px;
+color: #FFFFFF;
+text-transform: uppercase;
+opacity: 1;
+height: 34px;
+}
+
+.leftMessage
+{
+background:rgba(256,256,256,0.23);
+border-radius: 10px;}
+
+#submit
+{
+	width: 299px;
+height: 50px;
+font-size: 24px;
+border-radius: 4px;
+background: transparent linear-gradient(113deg, #6E54EC 0%, #CB52F8 40%, #FC5EFF 81%, #F1A7C5 100%) 0% 0% no-repeat padding-box;
+border: 0px;
+font-weight: 100;
+color: white;
+}
+
+#boxid2,#boxid4,#boxid6
+{
+	height: 40px;
+	border-left: 1px black dotted;
+	margin-left: 1rem;
+
+}
+.alarmInfo
+{
+	width: 253px;
+height: 117px;
+text-align: left;
+font: normal normal bold 15px/25px Manrope;
+letter-spacing: 0px;
+color: #F25CFE;
+opacity: 1;
+background: rgba(256,256,256,0.23);
+font-weight: 100;
+border-radius: 10px;
+padding: 2rem;padding: 0.5rem;
+box-sizing: border-box;
+}
+
+#clock
+{
+	width: 500px;
+justify-content: space-evenly;
+font-size: 2rem;
+text-align: center;
+background-color: white;
+border-radius: 1rem;
+padding: 1rem;
+}
+
+.mt
+{
+	margin-top: 1rem;
+}
+#id5
+{
+background: url('./AM_svg.svg');
+color: white;
+padding: 1rem;
+border-radius: 1rem;
+}
+#id1,#id5
+{
+	padding-top: 1rem;
+}
+.tEntity
+{
+	background: url('./timeline.svg');
+	width: 90px;
+	color: #8A11BF;
+}
+
+.col
+{
+	color: #8A11BF;
+	margin-top:1rem;
+}
+#id1
+{
+	color: #3D087B;
+	font-size: 1.3rem;
+	margin-top: 0.5rem;
+}
+
+
+#boxy1 {
+width: 450px;
+margin-left: 2.5rem;
+z-index: -1;
+}
+
+#boxy2 {
+margin-top: 1.75rem;
+z-index: -2;
+}
+
+.boxy {
+width: 400px;
+background: rgba(256,256,256,0.3);
+position: absolute;
+height: 107px;
+border-radius: 1rem;
+margin-left: 3.99rem;
+margin-right: auto;
+margin-top: 1rem;
+}
+.rightMessage
+{
+text-align: left;
+font: normal normal 900 30px/40px Bauhaus Hv BT;letter-spacing: 0px;
+color: #8E53F0;
+text-transform: uppercase;
+opacity: 1;
+background-color: white;
+width: 536px;
+height: 118px;
+border-radius: 1rem;
+margin-top: 3rem;
+padding: 1rem;
+box-sizing: border-box;
+}
+
+#image
+{
+width: 536px;
+height: 341px;
+background-image: url('./1.svg');
+background-color: white;
+margin-top: 1rem;
+border-radius: 1rem;
+}
+
+select
+{
+	width: 200px;
+font-size: 1.5rem;
+}
